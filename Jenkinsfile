@@ -26,7 +26,7 @@ pipeline {
             steps {
                 echo 'Deploying application'
                 bat 'mkdir C:\\deploy'
-                bat 'copy target\\HelloJenkins-1.0.jar C:\\deploy'
+                bat 'copy target\\Calculater-1.0.jar C:\\deploy'
             }
         }
     }
